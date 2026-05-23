@@ -1,0 +1,49 @@
+{
+  "name": "Sai Library Study OS",
+  "short_name": "Study OS",
+  "description": "Premium productivity workspace with Pomodoro timers, typing practice, task management and analytics.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "lang": "en",
+  "orientation": "portrait-primary",
+  "categories": ["education", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Typing Master",
+      "short_name": "Typing",
+      "description": "Start a typing test",
+      "url": "/typing",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Study Timer",
+      "short_name": "Timer",
+      "description": "Start a Pomodoro session",
+      "url": "/timer",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Image Compressor",
+      "short_name": "Compress",
+      "description": "Compress images locally",
+      "url": "/tools/image-compressor",
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# robots.txt — Sai Library Study OS
+# https://study.sailibrary.online
+
+User-agent: *
+
+# Allow public, indexable pages
+Allow: /
+Allow: /typing
+Allow: /typing/learn
+Allow: /leaderboard
+Allow: /tools/
+Allow: /tools/image-compressor
+
+# Block private / user-specific routes
+Disallow: /tasks
+Disallow: /notes
+Disallow: /auth
+Disallow: /focus
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://study.sailibrary.online/sitemap.xml
