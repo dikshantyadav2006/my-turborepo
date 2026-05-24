@@ -40,7 +40,7 @@ const Dashboard = () => {
       <SEO
         title="My Dashboard"
         description="Your personal Study OS dashboard – track XP, streaks, tasks and study activity."
-        robots="noindex,nofollow"
+        robots="index,follow"
         canonical="/"
       />
       {/* Welcome Header */}
